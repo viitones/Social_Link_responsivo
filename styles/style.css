@@ -50,3 +50,42 @@ header>p{
     font-size: 1em;
     color:#919193;
 }
+
+.list{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    margin: 1em 0;
+    gap: 1.2em;
+    font-size: 1.2em;
+    font-weight: 500;
+}
+
+a{
+    text-decoration: none;
+    color:#FFFFFF
+}
+
+.list-item{
+    background: var(--gradiente);
+    height: 4em;
+    border-radius: 2em;
+    display: flex;
+}
+
+.link{
+    padding: 0 45px;
+    display: flex;
+    justify-content: space-between;
+    flex-grow: 1;
+    align-items: center;
+}
+
+.link>img{
+    zoom: 1.2;
+}
+
+footer>a{
+    padding-left: 1em;
+    padding-right: 2em;
+}
